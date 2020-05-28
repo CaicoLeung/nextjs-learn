@@ -9,7 +9,7 @@ export default function FirstPost({ list }) {
             <Head>
                 <title>Caico</title>
             </Head>
-            <h1>这是SSG()预渲染页面</h1>
+            <h1>这是SSG(静态生成)的页面</h1>
             <Link href='/'>back to home</Link>
             <ul>
                 {

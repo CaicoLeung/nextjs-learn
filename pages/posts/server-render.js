@@ -4,7 +4,7 @@ import Layout from "../../components/_layout";
 export default function ServerRender ({ data }) {
     return (
         <Layout>
-            <h1>服务端预渲染</h1>
+            <h1>这是SSR(服务端渲染)的页面</h1>
             <ul>
                 {
                     data.map(item => (
